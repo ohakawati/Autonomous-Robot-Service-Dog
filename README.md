@@ -1,7 +1,7 @@
 # Autonomous-Robot-Service-Dog
 -Robot Service Dog consists of three embedded boards, RasberryPi for VoiceIO, Arduino Uno for motor and sensor controls, and Nvidia for image processing.
 
--VoiceIO:
+# VoiceIO:
 
   *Using pyttsX3 for text-to-speech and SpeechRecognition for speech-to-text.
   
@@ -9,11 +9,11 @@
   
   *Notifies user when object is a hazard on a moving path, when a desitination is reached, potential gas or fire hazards, and easily accessible information like weather.
 
--Motor and Sensor controls:
+# Motor and Sensor controls:
 
   *Consists of 4 motors, fire sensor, gas sensor, and servo for camera swivel.
   
--Image Processing:
+# Image Processing:
 
   *Leverages Yolov4 for object detection.
 
